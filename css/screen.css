@@ -187,11 +187,12 @@ img, audio, video {
 /* ===== BASE STYLES ===== */
 
 /*
-  Major Sixth Modular Scale:
-  http://www.modularscale.com/?22&px&1.667&web&text
+  Golden Ratio Scale:
+  https://www.modularscale.com/?22&px&1.618
 */
 
 html {
+  font-family: 'Playfair Display', serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -205,10 +206,12 @@ label {
 /* ===== LAYOUT STYLES ====== */
 #context {
   text-align: center;
+  font-size: .75em;
 }
 
 h1{
   text-align: center;
+  font-size: 1.618em;
 }
 #fields {
   padding: 5px;
@@ -231,11 +234,10 @@ html{
 }
 
 
-
 #fields {
   border: 1px solid;
   border-radius: 5px;
-  background-color: gray;
+  background-color: #666666;
 }
 input {
   border: 1px solid #ccc;
