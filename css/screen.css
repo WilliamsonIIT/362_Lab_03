@@ -203,6 +203,14 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+#context {
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
