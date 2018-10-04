@@ -210,9 +210,39 @@ label {
 h1{
   text-align: center;
 }
-
+#fields {
+  padding: 5px;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+}
+label {
+  text-align: center;
+}
 
 /* ===== MODULAR STYLES ===== */
+
+html{
+  background-color: black;
+  color: white;
+}
+
+
+
+#fields {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: gray;
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
 
 /* ===== STATE STYLES ======= */
 
