@@ -194,7 +194,7 @@ img, audio, video {
 html {
   font-family: 'Playfair Display', serif;
   font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
+  line-height: 1.5em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
@@ -215,6 +215,13 @@ h1{
 }
 #fields {
   padding: 5px;
+  margin: 5% 20% 10% 20%;
+  width: 60%;
+}
+  #head{
+    padding: 10px;
+
+  
 }
 input {
   width: 100%;
@@ -235,7 +242,6 @@ html{
 
 
 #fields {
-  border: 1px solid;
   border-radius: 5px;
   background-color: #666666;
 }
